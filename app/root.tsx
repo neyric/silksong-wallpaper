@@ -8,6 +8,7 @@ import { Document } from "~/features/document";
 import { createOrganizationSchema } from "~/utils/structured-data";
 import type { Route } from "./+types/root";
 
+import '@fontsource-variable/vollkorn';
 import "@fontsource-variable/inter";
 import "ldrs/react/Ring2.css";
 
@@ -16,11 +17,11 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export const loader = async ({ request }: Route.LoaderArgs) => {
-  let theme: "light" | "dark" = "light";
+  let theme: "light" | "dark" = "dark";
 
   if (await checkHasSession(request)) {
     const [session] = await getSessionHandler(request);
-    theme = session.get("theme") ?? "light";
+    theme = session.get("theme") ?? "dark";
   }
 
   return data({

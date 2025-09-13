@@ -24,7 +24,7 @@ export function ErrorPage({ error }: ErrorPageProps) {
 
   console.error("error", message);
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background p-4">
+    <div className="min-h-screen flex items-center justify-center p-4">
       <div className="text-center space-y-6">
         {/* Error Code */}
         <div className="space-y-2">

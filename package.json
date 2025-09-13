@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.6",
+    "@fontsource-variable/vollkorn": "^5.2.8",
     "@hookform/resolvers": "^5.2.1",
     "@markdoc/markdoc": "^0.5.4",
     "@microsoft/clarity": "^1.0.0",

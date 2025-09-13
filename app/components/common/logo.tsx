@@ -36,12 +36,12 @@ export const Logo = ({
     >
       <Image
         src="/assets/logo.webp"
-        alt="ImgVid Logo"
+        alt="Silksong Wallpaper"
         className={clsx("object-contain", sizeStyles[iconSize ?? size].box)}
         proxy={false}
       />
-      <div translate="no" className={clsx("font-bold", sizeStyles[size].text)}>
-        ImgVid
+      <div translate="no" className={clsx("font-medium font-logo", sizeStyles[size].text)}>
+        SILKSONG Wallpaper
       </div>
     </div>
   );

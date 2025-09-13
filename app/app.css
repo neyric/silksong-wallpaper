@@ -77,6 +77,7 @@
 }
 
 @theme {
+  --font-logo: "Vollkorn Variable", serif;
   --font-inter: "Inter Variable", sans-serif;
   --font-sans:
     Consolas, Monaco, Menlo, Courier New, PingFang SC, Microsoft YaHei,

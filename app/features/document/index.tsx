@@ -21,7 +21,7 @@ interface DocumentProps {
 }
 export function Document({
   lang = "en",
-  theme = "light",
+  theme = "dark",
   structure,
   children,
   DOMAIN,
