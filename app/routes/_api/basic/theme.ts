@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { getSessionHandler } from "~/.server/libs/session";
-import type { Route } from "./+types/route";
+import type { Route } from "./+types/theme";
 
 const themeSchema = z.object({ theme: z.enum(["light", "dark"]) });
 
