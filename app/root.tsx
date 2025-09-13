@@ -8,7 +8,14 @@ import { Document } from "~/features/document";
 import { createOrganizationSchema } from "~/utils/structured-data";
 import type { Route } from "./+types/root";
 
-import '@fontsource-variable/vollkorn';
+import '@fontsource/inknut-antiqua/300.css';
+import '@fontsource/inknut-antiqua/400.css';
+import '@fontsource/inknut-antiqua/500.css';
+import '@fontsource/inknut-antiqua/600.css';
+import '@fontsource/inknut-antiqua/700.css';
+import '@fontsource/inknut-antiqua/800.css';
+import '@fontsource/inknut-antiqua/900.css';
+
 import "@fontsource-variable/inter";
 import "ldrs/react/Ring2.css";
 

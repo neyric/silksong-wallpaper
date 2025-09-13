@@ -41,43 +41,44 @@
   --noise: 0;
 }
 
+
 @plugin "daisyui/theme" {
   name: "dark";
   default: false;
   prefersdark: false;
   color-scheme: "dark";
-  --color-base-100: oklch(22% 0.019 237.69);
-  --color-base-200: oklch(20% 0.019 237.69);
-  --color-base-300: oklch(18% 0.019 237.69);
-  --color-base-content: oklch(77.383% 0.043 245.096);
-  --color-primary: oklch(74.703% 0.158 39.947);
-  --color-primary-content: oklch(14.94% 0.031 39.947);
-  --color-secondary: oklch(72.537% 0.177 2.72);
-  --color-secondary-content: oklch(14.507% 0.035 2.72);
-  --color-accent: oklch(71.294% 0.166 299.844);
-  --color-accent-content: oklch(14.258% 0.033 299.844);
-  --color-neutral: oklch(26% 0.019 237.69);
-  --color-neutral-content: oklch(70% 0.019 237.69);
-  --color-info: oklch(85.559% 0.085 206.015);
-  --color-info-content: oklch(17.111% 0.017 206.015);
-  --color-success: oklch(85.56% 0.085 144.778);
-  --color-success-content: oklch(17.112% 0.017 144.778);
-  --color-warning: oklch(85.569% 0.084 74.427);
-  --color-warning-content: oklch(17.113% 0.016 74.427);
-  --color-error: oklch(85.511% 0.078 16.886);
-  --color-error-content: oklch(17.102% 0.015 16.886);
+  --color-base-100: oklch(25.33% 0.016 252.42);
+  --color-base-200: oklch(23.26% 0.014 253.1);
+  --color-base-300: oklch(21.15% 0.012 254.09);
+  --color-base-content: oklch(100% 0 0);
+  --color-primary: #FF6500;
+  --color-primary-content: oklch(100% 0 0);
+  --color-secondary: #1E3E62;
+  --color-secondary-content: oklch(100% 0 0);
+  --color-accent: #0B192C;
+  --color-accent-content: oklch(100% 0 0);
+  --color-neutral: #000000;
+  --color-neutral-content: oklch(100% 0 0);
+  --color-info: oklch(60% 0.126 221.723);
+  --color-info-content: oklch(98% 0.019 200.873);
+  --color-success: oklch(59% 0.145 163.225);
+  --color-success-content: oklch(97% 0.021 166.113);
+  --color-warning: oklch(66% 0.179 58.318);
+  --color-warning-content: oklch(98% 0.022 95.277);
+  --color-error: oklch(57% 0.245 27.325);
+  --color-error-content: oklch(97% 0.013 17.38);
   --radius-selector: 2rem;
   --radius-field: 0.25rem;
   --radius-box: 0.5rem;
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
   --border: 1px;
-  --depth: 0;
+  --depth: 1;
   --noise: 0;
 }
 
 @theme {
-  --font-logo: "Vollkorn Variable", serif;
+  --font-logo: 'Inknut Antiqua', serif;
   --font-inter: "Inter Variable", sans-serif;
   --font-sans:
     Consolas, Monaco, Menlo, Courier New, PingFang SC, Microsoft YaHei,
@@ -109,45 +110,17 @@
   @media (width >= 480px) {
     max-width: 480px;
   }
-  @media (width >= 660px) {
-    max-width: 660px;
+  @media (width >= 640px) {
+    max-width: 640px;
   }
-  @media (width >= 780px) {
-    max-width: 780px;
+  @media (width >= 768px) {
+    max-width: 768px;
   }
-  @media (width >= 1020px) {
-    max-width: 1020px;
+  @media (width >= 1024px) {
+    max-width: 1024px;
   }
   @media (width >= 1200px) {
     max-width: 1200px;
-  }
-}
-
-@utility big-container {
-  @apply container;
-
-  @media (width >= 1280px) {
-    max-width: 1280px;
-  }
-}
-
-@utility custom-underline {
-  position: relative;
-  padding-bottom: 0.5rem;
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 120px;
-    height: 100%;
-    background-image: url(/assets/lines.png);
-    background-size: 120px auto;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    pointer-events: none;
-    z-index: -1;
   }
 }
 

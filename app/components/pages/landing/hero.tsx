@@ -12,52 +12,23 @@ export function HeroSection({
   children,
 }: PropsWithChildren<HeroSectionProps>) {
   return (
-    <GridSection borderX={false} borderY={false} className="border-b">
-      <div className="pointer-events-none absolute inset-0 sm:border-x border-grid-border [mask-image:linear-gradient(transparent,black)]"></div>
-      <div className="pointer-events-none absolute inset-y-0 left-1/2 w-[1800px] -translate-x-1/2 [mask-composite:intersect] [mask-image:linear-gradient(transparent,black)] opacity-100">
-        <div className="absolute inset-x-[300px] inset-y-0">
-          <GridSVG className="pointer-events-none absolute inset-[unset] bottom-0 right-full h-[600px] w-[360px] text-grid-border/50 [mask-image:linear-gradient(90deg,transparent,black)]" />
-          <GridSVG className="pointer-events-none absolute inset-[unset] bottom-0 left-full h-[600px] w-[360px] text-grid-border/50 [mask-image:linear-gradient(270deg,transparent,black)]" />
+    <div className="bg-black text-white">
+      <div className="relative overflow-hidden container md:h-80 lg:h-120">
+        <div className="max-md:w-full md:absolute md:-right-15 lg:-right-20 inset-y-0 pointer-events-none select-none">
+          <img className="h-full size-full object-cover" src="/assets/banner.webp" />
+        </div>
+        <div className="relative h-full flex flex-col items-start justify-center max-md:py-6 md:max-w-80 lg:max-w-100 xl:max-w-120">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-medium font-logo select-none mb-2 sm:mb-4 lg:mb-6">
+            Silksong <br className="hidden md:block" />
+            Wallpaper
+          </h1>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl">Premium Hollow Knight: Silksong Wallpaper Collection</p>
+          <div className="mt-4 sm:mt-6 md:mt-8 lg:mt-12 flex items-center justify-center gap-6">
+            <button className="btn btn-primary">Get Wallpapers</button>
+            <p className="text-neutral-300">4K / 8K / Mobile</p>
+          </div>
         </div>
       </div>
-      <div className="pointer-events-none absolute inset-x-px inset-y-0 overflow-hidden opacity-100 [mask-composite:intersect] [mask-image:linear-gradient(transparent,black),radial-gradient(130%_50%_at_50%_100%,transparent,black)]">
-        <GridSVG className="pointer-events-none absolute inset-[unset] bottom-0 left-1/2 h-[600px] w-[1800px] -translate-x-1/2 text-grid-border/50" />
-      </div>
-      <div className="relative mx-auto flex w-full max-w-3xl flex-col items-center text-center space-y-2 mb-8 last-of-type:mb-0">
-        <h1 className="text-center font-display text-3xl font-medium sm:text-4xl sm:leading-[1.15] animate-slide-up-fade [--offset:20px] [animation-duration:1s] [animation-fill-mode:both] motion-reduce:animate-fade-in text-pretty [animation-delay:100ms]">
-          {title}
-        </h1>
-        <p className="text-pretty text-base opacity-70 sm:text-xl animate-slide-up-fade [--offset:10px] [animation-delay:200ms] [animation-duration:1s] [animation-fill-mode:both] motion-reduce:animate-fade-in">
-          {description}
-        </p>
-      </div>
-      {children}
-    </GridSection>
-  );
-}
-
-interface GridSVGProps extends React.SVGProps<SVGSVGElement> {}
-function GridSVG(props: GridSVGProps) {
-  return (
-    <svg width="100%" height="100%" {...props}>
-      <defs>
-        <pattern
-          id="grid-«rc»"
-          x="0"
-          y="0"
-          width="60"
-          height="60"
-          patternUnits="userSpaceOnUse"
-        >
-          <path
-            d="M 60 0 L 0 0 0 60"
-            fill="transparent"
-            stroke="currentColor"
-            strokeWidth="2"
-          ></path>
-        </pattern>
-      </defs>
-      <rect fill="url(#grid-«rc»)" width="100%" height="100%"></rect>
-    </svg>
+    </div>
   );
 }
