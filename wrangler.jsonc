@@ -1,0 +1,51 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "silksong-wallpaper",
+  "main": "./workers/app.ts",
+  "compatibility_date": "2025-04-04",
+  "compatibility_flags": ["nodejs_compat"],
+  "upload_source_maps": true,
+  "routes": [
+    {
+      "pattern": "silksongwallpaper.pics",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.silksongwallpaper.pics",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "SITE_NAME": "Silksong Wallpaper",
+    "CDN_URL": "https://cdn.silksongwallpaper.pics",
+    "DOMAIN": "https://silksongwallpaper.pics/",
+    "GOOGLE_ANALYTICS_ID": "G-XXXXXXX",
+    "GOOGLE_ADS_ID": "pub-3980704212397408",
+    "CLARITY_ID": "xxxxxx",
+  },
+  "observability": {
+    "enabled": true
+  },
+  /**
+   * Bindings
+   * Bindings allow your Worker to interact with resources on the Cloudflare Developer Platform, including
+   * databases, object storage, AI inference, real-time communication and more.
+   * https://developers.cloudflare.com/workers/runtime-apis/bindings/
+   */
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "xxxxxx"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "R2",
+      "bucket_name": "xxxx"
+    }
+  ],
+}
