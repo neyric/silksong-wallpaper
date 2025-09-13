@@ -56,10 +56,6 @@ export default function Home(_: Route.ComponentProps) {
         title={content.hero.title}
         description={content.hero.description}
       />
-      <PartnersSection
-        title={content.partners.title}
-        description={content.partners.description}
-      />
       <EffectShowcaseSection
         title={content.effectShowcase.title}
         description={content.effectShowcase.description}
