@@ -1,5 +1,6 @@
 import { Download } from "lucide-react";
 import { useMemo } from "react";
+import { Image } from "~/components/common";
 import { useBreakpoint } from "~/hooks/dom/use-breakpoint";
 
 export interface WallpaperItem {
@@ -97,11 +98,12 @@ function WallpaperCard({ wallpaper }: WallpaperCardProps) {
             {wallpaper.dimensions.width} × {wallpaper.dimensions.height}
           </div>
         </div>
-        <img
+        <Image
           src={imageUrl}
           alt={wallpaper.alt}
-          className="w-full h-auto object-cover rounded-lg"
+          className="w-full h-auto bg-base-300 object-cover rounded-lg"
           loading="lazy"
+          style={{ aspectRatio: wallpaper.aspectRatio.replace(":", "/") }}
         />
       </div>
 
@@ -113,12 +115,11 @@ function WallpaperCard({ wallpaper }: WallpaperCardProps) {
           <a
             href={imageUrl}
             download={wallpaper.src}
-            className="btn btn-xs btn-primary"
+            className="btn btn-xs btn-primary after:content-[attr(aria-label)]"
             onClick={(e) => e.stopPropagation()}
-            aria-label="Download wallpaper"
+            aria-label="Download"
           >
             <Download className="size-4" />
-            Download
           </a>
         </div>
       </div>

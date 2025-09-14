@@ -38,7 +38,8 @@ export default function Home(_: Route.ComponentProps) {
     <Fragment>
       <HeroSection />
 
-      <section className="py-12">
+      <section className="py-12 relative">
+        <div id="wallpaper-collection" className="absolute -top-16" />
         <div className="container">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold mb-4">

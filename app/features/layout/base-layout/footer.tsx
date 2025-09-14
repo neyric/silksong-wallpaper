@@ -69,7 +69,7 @@ export const Footer = ({
 
           {/* Navigation Links */}
           {navLinks.map((navLink, i) => (
-            <div key={i} className="space-y-2 md:space-y-4 text-right">
+            <div key={i} className="space-y-2 md:space-y-4 md:text-right">
               <label className="block font-bold text-base-content text-lg">
                 {navLink.label}
               </label>

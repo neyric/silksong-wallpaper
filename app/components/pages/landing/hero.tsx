@@ -1,6 +1,15 @@
-import { Image } from "~/components/common";
+import { Image, Link } from "~/components/common";
 
 export function HeroSection() {
+  const handleScrollToList = (
+    e: React.MouseEvent<HTMLAnchorElement, MouseEvent>
+  ) => {
+    e.preventDefault();
+    const element = document.getElementById("wallpaper-collection");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   return (
     <div className="bg-black text-white">
       <div className="relative overflow-hidden container md:h-80 lg:h-120">
@@ -20,7 +29,13 @@ export function HeroSection() {
             Premium Hollow Knight: Silksong Wallpaper Collection
           </p>
           <div className="mt-4 sm:mt-6 md:mt-8 lg:mt-12 flex items-center justify-center gap-6">
-            <button className="btn btn-primary">Get Wallpapers</button>
+            <Link
+              to="#wallpaper-collection"
+              className="btn btn-primary cursor-pointer"
+              onClick={handleScrollToList}
+            >
+              Get Wallpapers
+            </Link>
             <p className="text-neutral-300">4K / 8K / Mobile</p>
           </div>
         </div>
