@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { Image } from "~/components/common";
 import { HeroSection } from "~/components/pages/landing";
 import { createCanonical, createHomeAlternatives } from "~/utils/meta";
@@ -38,10 +38,16 @@ export default function Home(_: Route.ComponentProps) {
   return (
     <Fragment>
       <HeroSection />
+
       <div className="container">
         <div className="grid grid-cols-2">
           {list.map((item) => (
-            <Image src={`/assets/download/${item.src}`} alt={item.alt} key={item.src} />
+            <Image
+              src={`/assets/download/${item.src}`}
+              alt={item.alt}
+              key={item.src}
+              style={{ aspectRatio: item.aspectRatio.replace(":", "/") }}
+            />
           ))}
         </div>
       </div>
