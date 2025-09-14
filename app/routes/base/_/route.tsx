@@ -20,6 +20,11 @@ export const loader = async ({ request }: Route.LoaderArgs) => {
         label: "DeviantArt",
         target: "_blank",
       },
+      {
+        to: "https://github.com/neyric/silksong-wallpaper",
+        label: "Github Repo",
+        target: "_blank",
+      },
     ],
   };
 

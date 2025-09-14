@@ -4,6 +4,7 @@ interface OGParams {
   description?: string;
   image?: string;
   siteName?: string;
+  site?: string;
 }
 
 export interface OGDescriptor {
@@ -52,8 +53,8 @@ export const createTwitterTags = (params: OGParams) => {
   if (params.url) {
     tags.push({ property: "twitter:url", content: params.url });
   }
-  if (params.siteName) {
-    tags.push({ property: "twitter:site", content: params.siteName });
+  if (params.site) {
+    tags.push({ property: "twitter:site", content: params.site });
   }
 
   return tags;

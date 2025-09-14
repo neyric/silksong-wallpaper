@@ -17,6 +17,8 @@ export function meta({ matches }: Route.MetaArgs) {
       description: contents.meta.description,
       url: "/",
       siteName: matches[0].loaderData.SITE_NAME,
+      site: "@neyric",
+      image: "https://silksongwallpaper.pics/assets/og-banner.webp",
     },
     matches[0].loaderData.DOMAIN
   );
