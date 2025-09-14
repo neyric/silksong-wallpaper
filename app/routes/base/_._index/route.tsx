@@ -5,6 +5,7 @@ import { createSocialTags } from "~/utils/og";
 import type { Route } from "./+types/route";
 import contents from "./contents";
 import { list } from "./list";
+import { SetupGuide } from "./setup-guide";
 import { WaterfallLayout } from "./waterfall-layout";
 
 export function meta({ matches }: Route.MetaArgs) {
@@ -37,9 +38,23 @@ export default function Home(_: Route.ComponentProps) {
     <Fragment>
       <HeroSection />
 
-      <div className="container py-8">
-        <WaterfallLayout items={list} />
-      </div>
+      <section className="py-12">
+        <div className="container">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold mb-4">
+              Silksong Wallpaper Collection
+            </h2>
+            <p className="text-base-content/70 max-w-2xl mx-auto">
+              Explore our curated collection of high-quality Hollow Knight:
+              Silksong wallpapers. Available in multiple resolutions for all
+              your devices.
+            </p>
+          </div>
+          <WaterfallLayout items={list} />
+        </div>
+      </section>
+
+      <SetupGuide />
     </Fragment>
   );
 }
