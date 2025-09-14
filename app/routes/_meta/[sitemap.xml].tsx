@@ -31,14 +31,9 @@ const defaultSitemaps: Sitemaps[] = [
     priority: "0.6",
     lastmod: new Date("2025-07-09"),
   },
-  {
-    path: "/legal/refund",
-    priority: "0.6",
-    lastmod: new Date("2025-07-09"),
-  },
 ];
 
-export const loader = async ({ request, context }: Route.LoaderArgs) => {
+export const loader = async ({ request }: Route.LoaderArgs) => {
   const url = new URL(request.url);
 
   const sitemapList = [] as {

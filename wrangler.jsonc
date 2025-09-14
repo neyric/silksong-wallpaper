@@ -23,9 +23,9 @@
     "SITE_NAME": "Silksong Wallpaper",
     "CDN_URL": "https://cdn.silksongwallpaper.pics",
     "DOMAIN": "https://silksongwallpaper.pics/",
-    "GOOGLE_ANALYTICS_ID": "G-XXXXXXX",
+    "GOOGLE_ANALYTICS_ID": "G-B9HQDP25H2",
     "GOOGLE_ADS_ID": "pub-3980704212397408",
-    "CLARITY_ID": "xxxxxx",
+    "CLARITY_ID": "taegh0izw5",
   },
   "observability": {
     "enabled": true
@@ -39,13 +39,13 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "xxxxxx"
+      "id": "5360a0de307f41e2b33b8190f8d27931"
     }
   ],
   "r2_buckets": [
     {
       "binding": "R2",
-      "bucket_name": "xxxx"
+      "bucket_name": "silksong"
     }
   ],
 }

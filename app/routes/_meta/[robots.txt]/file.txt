@@ -12,6 +12,3 @@ User-agent: Anthropic-AI
 User-agent: PerplexityBot
 User-agent: GoogleOther
 User-agent: DuckAssistBot
-
-# llms for AI robots
-LLM-Content: {DOMAIN}/llms.txt
