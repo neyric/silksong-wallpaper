@@ -5,8 +5,21 @@ import type { Route } from "./+types/route";
 export const loader = async ({ request }: Route.LoaderArgs) => {
   const header: BaseLayoutProps["header"] = {
     navLinks: [
-      { to: "/", label: "Home" },
-      { to: "/pricing", label: "Pricing" },
+      {
+        to: "https://www.reddit.com/r/Silksong/",
+        label: "r/Silksong",
+        target: "_blank",
+      },
+      {
+        to: "https://www.artstation.com/search?sort_by=relevance&query=silksong",
+        label: "ArtStation",
+        target: "_blank",
+      },
+      {
+        to: "https://www.deviantart.com/search/deviations?q=silksong",
+        label: "DeviantArt",
+        target: "_blank",
+      },
     ],
   };
 
@@ -24,9 +37,9 @@ export const loader = async ({ request }: Route.LoaderArgs) => {
     friendlyLinks: [
       { to: "https://ghiblistyleai.app", label: "Ghibli Style AI" },
       { to: "https://ocmaker.app", label: "OC Maker" },
+      { to: "https://imgvid.app", label: "ImgVid AI" },
     ],
-    brandDescription:
-      "Free Hollow Knight: Silksong Wallpaper Collections.",
+    brandDescription: "Free Hollow Knight: Silksong Wallpaper Collections.",
     copyright: `© ${new Date().getFullYear()} Silksong Wallpaper Pics All Rights Reserved.`,
   };
 
