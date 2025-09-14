@@ -4,167 +4,131 @@ Last updated: September 12, 2025
 
 ## 1. Introduction
 
-At **ImgVid**, we are deeply committed to protecting your personal information and privacy. This Privacy Policy explains how we collect, use, and protect your data when you interact with our services.
-
-ImgVid offers an AI-powered image to video generation experience, allowing users to transform static images into dynamic videos using advanced artificial intelligence technology. This policy applies to all users of our website ([https://imgvid.app](https://imgvid.app)) and services.
+Welcome to **Silksong Wallpaper**. We respect your privacy and are committed to protecting any data that may be collected through our website. This Privacy Policy explains what information we collect, how we use it, and your rights regarding that information.
 
 ## 2. Information We Collect
 
-### 2.1 Types of Data Collected
+### Information We Do NOT Collect
 
-- **Personally Identifiable Information (PII)**: We collect information such as your email address when you register, subscribe, or contact us for support.
+We do not collect, store, or process any personal information such as:
+- Names, email addresses, or contact information
+- Account credentials (no user accounts exist)
+- Payment information (no payments are processed)
+- Personal identification information
 
-- **Media Content**: Images you upload and videos generated through our AI image to video tools. This data is used solely for providing our video generation service and improving our AI models.
+### Information Automatically Collected
 
-- **Generation Parameters**: Settings and preferences you select, including prompts, duration, resolution, camera settings, and other customization options for video generation.
+When you visit our website, certain non-personal information may be automatically collected:
 
-- **Payment Information**: We do **not** store or process payment data directly. All transactions are handled securely by **Creem**, our third-party payment processor.
+- **Analytics Data**: We use basic web analytics to understand site usage, including:
+  - Page views and visit duration
+  - Browser type and version
+  - Device type (desktop, mobile, tablet)
+  - General geographic location (country/region level)
+  - Referring website
 
-- **Usage Data**: We collect data about how you use our website, such as pages visited, features utilized, generation history, time spent, device and browser type, and other analytics-related data.
+- **Technical Data**:
+  - IP address (not stored permanently)
+  - Browser language preferences
+  - Time zone settings
 
-### 2.2 How Data Is Collected
+## 3. How We Use Information
 
-- **Direct Input**: When you provide your email, upload images, enter prompts, or generate videos.
+The limited information we collect is used solely to:
+- Improve website performance and user experience
+- Understand which wallpapers are most popular
+- Fix technical issues and bugs
+- Ensure the website functions properly across different devices
 
-- **Automated Technologies**: Through cookies and similar technologies that help analyze usage patterns and improve user experience.
+## 4. Cookies
 
-- **Third-Party Services**: Payment processors, analytics providers, and AI model services may collect data as part of the service integration.
+Our website uses cookies to enhance your browsing experience. For detailed information about cookies, please refer to our [Cookie Policy](/legal/cookie).
 
-## 3. How We Use Your Information
+### Essential Cookies
+- Required for basic website functionality
+- Remember your cookie consent preferences
+- Cannot be disabled while using the site
 
-### 3.1 Purpose of Use
+### Analytics Cookies
+- Help us understand how visitors use the website
+- Fully anonymized and aggregated
+- Can be disabled through cookie preferences
 
-We use the information we collect for the following purposes:
+### Advertising Cookies
+- Used by Google AdSense to display relevant advertisements
+- Subject to Google's privacy policies
+- Can be disabled through cookie preferences
 
-- **To provide and operate our services**: Including processing images, generating videos, and managing your account and credits.
+## 5. Third-Party Services
 
-- **To improve AI capabilities**: Analyzing generation patterns to enhance our AI models and video quality.
+### Google AdSense
+We use Google AdSense to display advertisements. Google may use cookies and other tracking technologies to:
+- Serve ads based on your prior visits to our website or other websites
+- Measure ad performance
+- Prevent showing the same ads repeatedly
 
-- **To communicate with you**: For support, service updates, new features, and relevant notifications about your generations.
+You can opt out of personalized advertising by visiting [Google's Ads Settings](https://www.google.com/settings/ads).
 
-- **To ensure service integrity**: Monitoring for abuse, fraud prevention, and maintaining platform security.
+### Analytics Services
+We may use privacy-focused analytics services that:
+- Do not track individual users
+- Do not use cookies for tracking
+- Comply with privacy regulations
 
-- **For legal compliance**: Where required by applicable laws and regulations.
+## 6. Data Security
 
-### 3.2 Information Sharing
-
-We do **not** sell your personal information. However, we may share it under the following circumstances:
-
-- **Third-Party Service Providers**: Including cloud storage (Cloudflare R2), AI model providers (KieAI, Replicate), hosting, analytics, and payment providers, all bound by confidentiality agreements.
-
-- **Legal Compliance**: If required to respond to legal obligations, court orders, or lawful requests from authorities.
-
-- **Aggregated Data**: Non-identifiable information may be shared for research, model improvement, or business analysis.
-
-### 3.3 Your Consent and Control
-
-- By using our services, you consent to the collection and use of data as outlined in this policy.
-
-- You can **opt out** of promotional communications at any time via the unsubscribe link or by contacting us.
-
-- You maintain control over your generated content and can delete it from your account at any time.
-
-## 4. Data Storage and Security
-
-### 4.1 Data Retention
-
-We retain your personal data only for as long as needed:
-
-- **Generated Videos**: Videos and source images are stored in your account for 30 days after generation, unless you choose to delete them earlier.
-
-- **Account Data**: Retained until your account is deleted or you request erasure.
-
-- **Usage Logs**: Anonymized usage data may be retained for up to 12 months for service improvement.
-
-### 4.2 Security Measures
-
-We implement appropriate technical and organizational safeguards:
-
-- **Encryption**: All sensitive data is encrypted during transmission (TLS/SSL) and at rest.
-
-- **Secure Infrastructure**: Data is stored on Cloudflare's secure infrastructure with restricted access and continuous monitoring.
-
-- **Access Controls**: Multi-factor authentication and role-based access for administrative functions.
-
-- **Routine Audits**: Regular security assessments and vulnerability scanning of our systems.
-
-### 4.3 In Case of a Data Breach
-
-- **Immediate Mitigation**: We will act promptly to secure our systems and determine the breach scope.
-
-- **Notification**: If affected, you will be informed within 72 hours in line with regulatory requirements.
-
-- **Regulatory Reporting**: We comply with global data protection laws such as GDPR and CCPA in case of incidents.
-
-## 5. Your Rights
-
-### 5.1 Your Rights Under Data Protection Laws
-
-You have the right to:
-
-- **Access** your personal data and generated content.
-- **Rectify** inaccurate or outdated information.
-- **Erase** your data and generated videos ("right to be forgotten").
-- **Restrict** processing under certain circumstances.
-- **Port** your data to another service provider.
-- **Object** to the processing of your data, including for direct marketing.
-- **Withdraw consent** for data processing at any time.
-
-### 5.2 How to Exercise Your Rights
-
-To exercise any of your rights, contact us via:
-
-**Email**: [support@imgvid.app](mailto:support@imgvid.app)
-
-We may require verification of your identity before fulfilling your request.
-
-### 5.3 Response Time
-
-We aim to respond to all legitimate requests within **30 days**. Complex or multiple requests may require additional time, and we will keep you updated accordingly.
-
-## 6. Cookies and Tracking Technologies
-
-### 6.1 Types of Cookies We Use
-
-- **Essential Cookies**: Required for basic site functionality and security.
-- **Analytics Cookies**: Help us understand how users interact with our service.
-- **Preference Cookies**: Remember your settings and customization choices.
-- **Performance Cookies**: Monitor and improve service performance.
-
-### 6.2 Managing Cookies
-
-You can control cookies through your browser settings. Note that disabling certain cookies may impact service functionality.
+While we collect minimal data, we implement appropriate technical measures to protect any information processed through our website:
+- Secure HTTPS connections
+- Regular security updates
+- No storage of personal information
 
 ## 7. Children's Privacy
 
-Our services are not intended for children under 13 years of age. We do not knowingly collect personal information from children. If we discover that a child has provided us with personal information, we will promptly delete such information.
+Our website does not knowingly collect personal information from children under 13. The site content is suitable for all ages, but children should have parental permission before using the internet.
 
-## 8. International Data Transfers
+## 8. Your Rights
 
-Your information may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in accordance with this policy and applicable laws.
+Even though we collect minimal data, you have the right to:
+- Opt out of non-essential cookies
+- Use browser settings to block all cookies
+- Request information about any data we may have
+- Use ad blockers to prevent advertisement tracking
 
-## 9. Updates to This Policy
+## 9. Data Retention
 
-### 9.1 Policy Revisions
+- Analytics data is aggregated and anonymized
+- No personal data is retained
+- Cookie preferences are stored locally in your browser
+- Technical logs are automatically deleted after 30 days
 
-ImgVid may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. All changes take effect upon posting unless otherwise indicated.
+## 10. International Visitors
 
-### 9.2 Notification of Changes
+Our website is accessible globally. By using our website, you consent to the processing of any collected information in accordance with this policy, regardless of your country of origin.
 
-If substantial changes are made:
+## 11. Do Not Track
 
-- We will notify you via email or a prominent notice on our website.
-- You'll have the opportunity to review and consent (where required) before the changes are applied.
+We respect Do Not Track (DNT) browser settings. When DNT is enabled:
+- No analytics cookies will be set
+- Only essential cookies required for site functionality will be used
 
-## 10. Contact Us
+## 12. Changes to This Policy
 
-If you have questions, concerns, or feedback about this policy or your data:
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. Continued use of the website after changes constitutes acceptance of the updated policy.
 
-- **Email**: [support@imgvid.app](mailto:support@imgvid.app)
-- **Website**: [https://imgvid.app](https://imgvid.app)
+## 13. Contact Information
 
-We are committed to resolving any issues promptly and respectfully.
+If you have any questions or concerns about this Privacy Policy, please contact us:
+
+- **Email:** [privacy@silksong-wallpaper.com](mailto:privacy@silksong-wallpaper.com)
+- **Website:** [https://silksong-wallpaper.com](https://silksong-wallpaper.com)
+
+## 14. Compliance
+
+This privacy policy is designed to comply with:
+- General Data Protection Regulation (GDPR)
+- California Consumer Privacy Act (CCPA)
+- Other applicable privacy laws and regulations
 
 ---
 
-**ImgVid** – Your [Image to Video AI Generator](https://imgvid.app)
+**Silksong Wallpaper** – Your Privacy Matters

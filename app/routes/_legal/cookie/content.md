@@ -4,97 +4,133 @@ Last updated: September 12, 2025
 
 ## 1. Introduction
 
-**ImgVid** is an AI-powered image to video generation platform. On the ImgVid website, we use cookies. This policy outlines how and why we use cookies. For more information about how this fits into our broader policies, please refer to our [Privacy Policy](/legal/privacy).
+**Silksong Wallpaper** uses cookies to enhance your browsing experience. This Cookie Policy explains what cookies are, how we use them, and how you can manage your cookie preferences.
 
 ## 2. What are cookies?
 
-Cookies are small text files stored on your device when you visit websites that use them. They serve various purposes, mainly to improve your browsing experience by remembering your actions and preferences over time. For example, a cookie might help keep you logged in or remember your preferred language.
+Cookies are small text files that are placed on your device when you visit a website. They help the website remember your preferences and improve your experience by:
 
-Cookies can be set by the website you’re visiting (first-party cookies) or by third parties whose services appear on the site (third-party cookies). Some cookies are session-based (deleted when you close your browser), while others are persistent (remain until manually deleted or expire).
+- Keeping track of your settings
+- Understanding how you use the website
+- Enabling certain website features
 
-## 3. What types of cookies do we use?
+Cookies can be "session" cookies (deleted when you close your browser) or "persistent" cookies (remain until they expire or you delete them).
 
-We use the following types of cookies on ImgVid:
+## 3. Types of cookies we use
 
-### Necessary cookies
+### Essential Cookies
 
-These cookies are essential for the operation of our website. They help perform core functionalities such as user authentication and remembering your privacy settings. These cookies:
+These cookies are necessary for the website to function properly:
 
-* Do not store personally identifiable information
-* Do not track your browsing activity
-* Cannot be turned off via our site settings, but you may block them via your browser settings (note: doing so may impair site functionality)
+- **Cookie Consent**: Remembers your cookie preferences
+- **Site Functionality**: Ensures the website displays correctly
+- **Security**: Helps protect against malicious activity
 
-### Functional cookies
+These cookies cannot be disabled as they are essential for the website to work.
 
-These cookies help us understand how visitors interact with our website. They:
+### Analytics Cookies
 
-* Allow us to count visits and monitor site traffic
-* Help us improve usability and content based on user behavior
-* Collect fully anonymized data that cannot be used to identify you
+We use analytics cookies to understand how visitors interact with our website:
 
-You can choose whether to allow or reject these cookies.
+- Track page views and visitor behavior
+- Measure site performance
+- Identify popular content
+- All data is anonymized and aggregated
 
-### Analytical cookies
+You can opt out of analytics cookies through our cookie settings.
 
-These cookies are set by our advertising and analytics partners. They:
+### Advertising Cookies (Google AdSense)
 
-* Collect anonymous information about your interests and behavior
-* Help us deliver more relevant ads across other websites
-* Use unique identifiers connected to your device/browser
+Our website displays advertisements through Google AdSense. These cookies:
 
-While these cookies don’t store personal information, they may track your activity across websites. You can opt in or out of these cookies.
+- Help Google serve relevant ads based on your interests
+- Prevent the same ads from being shown repeatedly
+- Measure ad campaign effectiveness
+- Are subject to [Google's Privacy Policy](https://policies.google.com/privacy)
 
-## 4. How do we use cookies?
+Google AdSense may use:
+- **Personalized ads**: Based on your browsing history and interests
+- **Non-personalized ads**: Generic ads not based on your personal data
 
-We use cookies for various reasons, including:
+## 4. Third-party cookies
 
-### Essential cookies to:
+### Google AdSense
 
-* Keep you logged in during your visit
-* Remember your site preferences (e.g., language)
-* Display the correct version of the site for your device
-* Process video generation requests and store your video creation preferences
+Google AdSense places cookies to:
+- Serve advertisements on our website
+- Track ad impressions and clicks
+- Provide relevant advertising content
+- Prevent ad fraud
 
-### Functional cookies to:
+For more information about Google's use of cookies, visit:
+- [Google's Privacy & Terms](https://policies.google.com/technologies/cookies)
+- [How Google uses cookies in advertising](https://policies.google.com/technologies/ads)
 
-* Track traffic sources
-* Measure site performance and engagement
-* Identify issues and improve user experience
+## 5. Managing your cookie preferences
 
-These cookies help us analyze trends and optimize our services without identifying individual users.
+### Browser Settings
 
-### Analytical cookies to:
+You can control cookies through your browser settings:
 
-* Understand user interests and preferences
-* Measure the effectiveness of our ads
-* Display more personalized advertising content on external platforms
+- **Chrome**: Settings > Privacy and security > Cookies
+- **Firefox**: Settings > Privacy & Security > Cookies
+- **Safari**: Preferences > Privacy > Cookies
+- **Edge**: Settings > Privacy, search, and services > Cookies
 
-These cookies are managed by third-party providers who help us enhance marketing efforts.
+Note: Blocking all cookies may affect website functionality.
 
-## 5. Changing your cookie preferences
+### Google Ad Personalization
 
-When you first visit ImgVid, a cookie consent banner will appear. You can accept all cookies, reject non-essential cookies, or customize your preferences.
+You can manage Google ad personalization:
+- Visit [Google Ads Settings](https://www.google.com/settings/ads)
+- Turn off ad personalization
+- View and delete your Google activity
 
-You can also update your preferences later by clicking the **Cookie Settings** link in the footer of the website or by clearing your cookies and refreshing the page.
+### Cookie Consent
 
-## 6. Deleting existing cookies
+When you first visit our website, you'll see a cookie consent banner where you can:
+- Accept all cookies
+- Reject non-essential cookies
+- Customize your preferences
 
-We cannot delete cookies directly for you, as they are stored on your device. You can remove them manually through your browser settings. Instructions vary depending on your browser—please refer to its support documentation for guidance.
+You can change your preferences anytime by clicking "Cookie Settings" in the website footer.
 
-Keep in mind: if you’ve previously accepted certain cookies and now opt out, you may still need to manually delete old cookies.
+## 6. Do Not Track
 
-## 7. Changes to this policy
+We respect Do Not Track (DNT) browser signals. When DNT is enabled:
+- Analytics cookies will not be set
+- Only essential cookies will be used
+- Ad personalization may be limited
 
-We may update this Cookie Policy from time to time. Significant changes that affect your cookie preferences will be clearly communicated. If required, we will prompt you to update your preferences upon revisiting our site.
+## 7. Cookies we use
 
-## 8. Contact information
+| Cookie Name | Type | Purpose | Duration |
+|------------|------|---------|----------|
+| cookie_consent | Essential | Stores your cookie preferences | 1 year |
+| _ga | Analytics | Google Analytics tracking | 2 years |
+| _gid | Analytics | Google Analytics session | 24 hours |
+| NID | Advertising | Google AdSense preferences | 6 months |
+| DSID | Advertising | Google AdSense targeting | 2 weeks |
 
-If you have any questions or concerns regarding this Cookie Policy, please contact us:
+This list may not be exhaustive as Google AdSense may set additional cookies.
 
-- **Email:** [support@imgvid.app](mailto:support@imgvid.app)
+## 8. Updates to this policy
 
-We are committed to resolving any issues promptly and respectfully.
+We may update this Cookie Policy periodically. Changes will be posted on this page with the updated date. Continued use of the website after changes indicates acceptance of the updated policy.
+
+## 9. Contact us
+
+If you have questions about our use of cookies, please contact us:
+
+- **Email:** [cookies@silksong-wallpaper.com](mailto:cookies@silksong-wallpaper.com)
+- **Website:** [https://silksong-wallpaper.com](https://silksong-wallpaper.com)
+
+## 10. More information
+
+For more information about cookies in general:
+- [All About Cookies](https://www.allaboutcookies.org/)
+- [Your Online Choices](https://www.youronlinechoices.com/)
 
 ---
 
-**ImgVid** – Your [Image to Video AI Generator](/) Studio
+**Silksong Wallpaper** – Respecting Your Privacy Choices
