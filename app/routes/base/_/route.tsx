@@ -13,25 +13,10 @@ export const loader = async ({ request }: Route.LoaderArgs) => {
   const footer: BaseLayoutProps["footer"] = {
     navLinks: [
       {
-        label: "Tools",
-        list: [{ to: "/", label: "Image to Video" }],
-      },
-      {
-        label: "Contact Us",
-        list: [
-          {
-            to: "mailto:support@imgvid.app",
-            label: "support@imgvid.app",
-            target: "_blank",
-          },
-        ],
-      },
-      {
         label: "Legal",
         list: [
           { to: "/legal/terms", label: "Terms of Use", target: "_blank" },
           { to: "/legal/privacy", label: "Privacy Policy", target: "_blank" },
-          { to: "/legal/refund", label: "Refund Policy", target: "_blank" },
           { to: "/legal/cookie", label: "Cookie Policy", target: "_blank" },
         ],
       },
@@ -41,8 +26,8 @@ export const loader = async ({ request }: Route.LoaderArgs) => {
       { to: "https://ocmaker.app", label: "OC Maker" },
     ],
     brandDescription:
-      "From still to stunning, transform static images into dynamic videos with AI. Create professional animations in minutes.",
-    copyright: `© ${new Date().getFullYear()} ImgVid All Rights Reserved.`,
+      "Free Hollow Knight: Silksong Wallpaper Collections.",
+    copyright: `© ${new Date().getFullYear()} Silksong Wallpaper Pics All Rights Reserved.`,
   };
 
   return { header, footer };
