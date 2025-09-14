@@ -119,8 +119,8 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 If you have any questions or concerns about this Privacy Policy, please contact us:
 
-- **Email:** [privacy@silksong-wallpaper.com](mailto:privacy@silksong-wallpaper.com)
-- **Website:** [https://silksong-wallpaper.com](https://silksong-wallpaper.com)
+- **Email:** [support@silksongwallpaper.pics](mailto:support@silksongwallpaper.pics)
+- **Website:** [https://silksongwallpaper.pics](https://silksongwallpaper.pics)
 
 ## 14. Compliance
 

@@ -124,8 +124,8 @@ If any provision of these Terms is held invalid or unenforceable, the remainder 
 
 If you have any questions about these Terms, please reach out to us at:
 
-- **Email:** [contact@silksong-wallpaper.com](mailto:contact@silksong-wallpaper.com)
-- **Website:** [https://silksong-wallpaper.com](https://silksong-wallpaper.com)
+- **Email:** [support@silksongwallpaper.pics](mailto:support@silksongwallpaper.pics)
+- **Website:** [https://silksongwallpaper.pics](https://silksongwallpaper.pics)
 
 ---
 

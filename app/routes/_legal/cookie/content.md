@@ -122,8 +122,8 @@ We may update this Cookie Policy periodically. Changes will be posted on this pa
 
 If you have questions about our use of cookies, please contact us:
 
-- **Email:** [cookies@silksong-wallpaper.com](mailto:cookies@silksong-wallpaper.com)
-- **Website:** [https://silksong-wallpaper.com](https://silksong-wallpaper.com)
+- **Email:** [support@silksongwallpaper.pics](mailto:support@silksongwallpaper.pics)
+- **Website:** [https://silksongwallpaper.pics](https://silksongwallpaper.pics)
 
 ## 10. More information
 
